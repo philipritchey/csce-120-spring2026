@@ -1,2 +1,3 @@
 # Week 4: Debugging, Software Developement Cycle
-* [Debugging Practice](debugging_practice) - find and fix errors in code
+* [debugging practice](debugging_practice) - find and fix errors in code
+* [integer overflow](integer_overflow) - what happens when you overflow an integer
