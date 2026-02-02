@@ -3,13 +3,13 @@
 #include <vector>
 
 std::vector<int> random_integers(int, unsigned int);
-void print_vector(const std::string&, const std::vector<int>&);
+std::ostream& operator<<(std::ostream&, const std::vector<int>&);
 std::string input(const std::string&);
 unsigned count(const std::vector<int>&, int);
 
 int main() {
     std::vector<int> numbers = random_integers(10, 10);
-    print_vector("numbers", numbers);
+    std::cout << "numbers = " << numbers << std::endl;
 
     // ask for a number to search for
     int x;
@@ -35,13 +35,13 @@ std::vector<int> random_integers(int upper, unsigned int count) {
 }
 
 // print the contents of the vector
-void print_vector(const std::string& name, const std::vector<int>& numbers) {
-    std::cout << name << " = [";
+std::ostream& operator<<(std::ostream& os, const std::vector<int>& numbers) {
+    os << "[";
     for (int number : numbers) {
-        std::cout << " " << number;
+        os << " " << number;
     }
-    std::cout << " ]";
-    std::cout << std::endl;
+    os << " ]";
+    return os;
 }
 
 // prompt the user for input, return one line of input as a string
