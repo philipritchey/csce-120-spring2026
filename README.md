@@ -11,3 +11,4 @@
 * [Week 9](week_9) - Testing and Debugging Classes, Dynamic Memory, C-Style 1D Arrays
 * [Week 10](week_10) - Dynamically Allocated 1D Arrays
 * [Week 11](week_11) - Dynamic Arrays, Classes with Dynamic Memory
+* [Week 12](week_12) - Classes with Dynamic Memory
