@@ -1,2 +1,3 @@
 # Inheritance and Polymorphism
-* [The animal says: &lt;animal noises&gt;](demo)
+* [Inheritance](inheritance) - The animal says: &lt;animal noises&gt;
+* [Polymorphism] - ad hoc, parametric, subtyping
