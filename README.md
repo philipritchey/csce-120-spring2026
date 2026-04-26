@@ -14,3 +14,4 @@
 * [Week 12](week_12) - Classes with Dynamic Memory
 * [Week 13](week_13) - Linked Lists
 * [Week 14](week_14) - Inheritance and Polymorphism
+* [Week 15](week_15) - Advice for Code Writing Problems
